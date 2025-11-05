@@ -50,7 +50,6 @@ public class Converter {
         //Getting rates
         Map<String, Object> rates = (Map<String, Object>) exchangeRates.get("rates");
         System.out.println("GBP Rate: " + rates.get("GBP"));
-        System.out.println("USD Rate: " + rates.get("USD"));
 
 
     }
