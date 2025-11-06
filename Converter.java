@@ -10,21 +10,24 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Map;
 import java.util.Properties;
+import java.util.Scanner;
 
 public class Converter {
+
+    public static String date = LocalDate.now().format(DateTimeFormatter.ISO_LOCAL_DATE);
+
     public static void main(String[] args) throws Exception {
         //Set API endpoint and API key
         Properties properties = new Properties();
         properties.load(new FileInputStream("config.properties"));
         String accessKey = properties.getProperty("api.key");
         String apiEndpoint = "latest";
-        String date = LocalDate.now().format(DateTimeFormatter.ISO_LOCAL_DATE);
 
         String url = "https://api.exchangeratesapi.io/v1/" + apiEndpoint +
                 "?access_key=" + accessKey + "&date=" + date;
 
 
-        //Creating client
+//        //Creating client
         HttpClient client = HttpClient.newHttpClient();
 
         //Building request
@@ -51,6 +54,47 @@ public class Converter {
         Map<String, Object> rates = (Map<String, Object>) exchangeRates.get("rates");
         System.out.println("GBP Rate: " + rates.get("GBP"));
 
+        String base = (String) exchangeRates.get("base");
+        System.out.println(base);
+
+        Scanner scan = new Scanner(System.in);
+        userConvert(scan);
+
+
+    }
+
+    public static void userConvert(Scanner scan) throws Exception {
+        Properties properties = new Properties();
+        properties.load(new FileInputStream("config.properties"));
+        String accessKey = properties.getProperty("api.key");
+        //String date = LocalDate.now().format(DateTimeFormatter.ISO_LOCAL_DATE);
+
+       // Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter currency to convert from: ");
+        String from = scan.next();
+
+        System.out.println("Enter currency to convert to: ");
+        String to = scan.next();
+
+        System.out.println("Amount: ");
+        String amount = scan.next();
+
+        String apiConvertEndpoint = "convert";
+        String convertURL = "https://api.exchangeratesapi.io/v1/" + apiConvertEndpoint +
+                "?from=" + from +
+                "&to=" + to +
+                "&amount=" + amount +
+                "&access_key=" + accessKey +
+                "&date=" + date;
+
+
+        HttpRequest request = HttpRequest.newBuilder()
+                .uri(URI.create(convertURL))
+                .header("Accept", "application/json")
+                .method("GET", HttpRequest.BodyPublishers.noBody())
+                .build();
+        HttpResponse<String> response = HttpClient.newHttpClient().send(request, HttpResponse.BodyHandlers.ofString());
+        System.out.println(response.body());
 
     }
 
