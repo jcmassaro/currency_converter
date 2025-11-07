@@ -67,7 +67,6 @@ public class Converter {
         Properties properties = new Properties();
         properties.load(new FileInputStream("config.properties"));
         String accessKey = properties.getProperty("api.key");
-        //String date = LocalDate.now().format(DateTimeFormatter.ISO_LOCAL_DATE);
 
        // Scanner scanner = new Scanner(System.in);
         System.out.print("Enter currency to convert from: ");
