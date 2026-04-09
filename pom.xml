@@ -5,13 +5,19 @@
          http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.example</groupId>
+    <groupId>com.currencyconverter</groupId>
     <artifactId>currency-converter</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
 
-    <name>Currency Converter</name>
+    <name>Currency com.currencyconverter.controller.ConverterController</name>
     <description>A currency converter application using real-time exchange rates</description>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>3.2.0</version>
+    </parent>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -27,6 +33,11 @@
             <groupId>org.apache.httpcomponents.client5</groupId>
             <artifactId>httpclient5</artifactId>
             <version>5.2.1</version>
+        </dependency>
+
+        <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
         <!-- JSON Processing with Jackson -->

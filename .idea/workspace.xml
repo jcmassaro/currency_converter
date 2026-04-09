@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_INJECTED_CODE" value="false" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e995e559-e64f-4ac3-bb22-4a59170a3026" name="Changes" comment="Cleaned up code and fixed minor warnings">
+      <change beforePath="$PROJECT_DIR$/Converter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;jcmassaro&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/jcmassaro/currency_converter.git&quot;,
+    &quot;accountId&quot;: &quot;f51ee4f7-7c79-4edf-b663-6d0bef265287&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="352JsXICZadJ0L7ciNJ62jLQrOY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Converter.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.1953125",
+    "project.structure.side.proportion": "0.74712646",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "editor.preferences.appearance"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Converter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Converter" />
+      <module name="currency-converter" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Converter" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e995e559-e64f-4ac3-bb22-4a59170a3026" name="Changes" comment="" />
+      <created>1762302439116</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1762302439116</updated>
+    </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1762302525857</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1762302525857</updated>
+    </task>
+    <task id="LOCAL-00002" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1762302532601</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1762302532601</updated>
+    </task>
+    <task id="LOCAL-00003" summary="README updates and Converter class">
+      <option name="closed" value="true" />
+      <created>1762303454322</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1762303454322</updated>
+    </task>
+    <task id="LOCAL-00004" summary="updated pom.xml with dependencies">
+      <option name="closed" value="true" />
+      <created>1762304245806</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1762304245806</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added ability to work with Exchangeratesapi.io">
+      <option name="closed" value="true" />
+      <created>1762354909924</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1762354909925</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added ability to work with Exchangeratesapi.io">
+      <option name="closed" value="true" />
+      <created>1762355146778</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1762355146778</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added ability to work with Exchangeratesapi.io">
+      <option name="closed" value="true" />
+      <created>1762355634378</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1762355634378</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added ability to work with Exchangeratesapi.io">
+      <option name="closed" value="true" />
+      <created>1762355952186</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1762355952186</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added extra rates">
+      <option name="closed" value="true" />
+      <created>1762356504333</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1762356504333</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Added extra rates">
+      <option name="closed" value="true" />
+      <created>1762358089420</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1762358089420</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Added extra rates">
+      <option name="closed" value="true" />
+      <created>1762358171026</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1762358171026</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Added ability to convert currencies">
+      <option name="closed" value="true" />
+      <created>1762451831751</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1762451831751</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Cleaned up code and fixed minor warnings">
+      <option name="closed" value="true" />
+      <created>1762547396471</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1762547396471</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <MESSAGE value="README updates and Converter class" />
+    <MESSAGE value="updated pom.xml with dependencies" />
+    <MESSAGE value="Added ability to work with Exchangeratesapi.io" />
+    <MESSAGE value="Added extra rates" />
+    <MESSAGE value="Added ability to convert currencies" />
+    <MESSAGE value="Cleaned up code and fixed minor warnings" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleaned up code and fixed minor warnings" />
+  </component>
+</project>
