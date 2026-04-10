@@ -1,19 +1,35 @@
 //React front basic usage
 import { useState } from "react";
 
+
 export default function CurrencyConverter() {
   const [from, setFrom] = useState("USD");
   const [to, setTo] = useState("GBP");
   const [amount, setAmount] = useState("");
   const [result, setResult] = useState(null);
+  const [error, setError] = useState(null);
 
   const handleConvert = async () => {
+    try {
     const res = await fetch(
       `http://localhost:8080/api/convert?from=${from}&to=${to}&amount=${amount}`
     );
     const data = await res.json();
     setResult(data.result); // adjust based on actual API response shape
+
+
+    if (data.error) {
+      setError(data.error);
+      setResult(null);
+    } else {
+      setResult(data.result);
+      setError(null);
+    }
+  } catch (err) {
+    setError("Something went wrong, please try again.");
+}
   };
+ 
 
   return (
     <div>
@@ -22,7 +38,8 @@ export default function CurrencyConverter() {
       <input value={amount} onChange={e => setAmount(e.target.value)} placeholder="Amount" />
       <button onClick={handleConvert}>Convert</button>
       {result && <p>Result: {result}</p>}
+      {error && <p style={{ color: "red" }}>{error}</p>}
+      {result && <p>Result: {result}</p>}
     </div>
   );
-}
-//hello
+}; 
