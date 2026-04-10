@@ -1,0 +1,13 @@
+Index: config.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>api.key=3b9388a58d9087e84adbba66380a367e\napi.endpoint=latest
+===================================================================
+diff --git a/config.properties b/config.properties
+--- a/config.properties	(revision 24b71d903f9a62f8bb22a8a88116e6ec4dbc6830)
++++ b/config.properties	(date 1762356883646)
+@@ -1,2 +1,2 @@
+ api.key=3b9388a58d9087e84adbba66380a367e
+-api.endpoint=latest
+\ No newline at end of file
++api.endpoint=latest

@@ -1,0 +1,51 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "cwd": "${workspaceFolder}/currency-converter"
+        },
+        {
+            "type": "java",
+            "name": "Converter",
+            "request": "launch",
+            "mainClass": "Converter",
+            "projectName": "currency-converter"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "weather.Main",
+            "projectName": "weatherAPI"
+        },
+        {
+            "type": "java",
+            "name": "PublishTopic",
+            "request": "launch",
+            "mainClass": "weather.PublishTopic",
+            "projectName": "weatherAPI"
+        },
+        {
+            "type": "java",
+            "name": "s3",
+            "request": "launch",
+            "mainClass": "weather.s3",
+            "projectName": "weatherAPI"
+        },
+        {
+            "type": "java",
+            "name": "weatherAPI",
+            "request": "launch",
+            "mainClass": "weather.weatherAPI",
+            "projectName": "weatherAPI"
+        }
+    ]
+}
